@@ -178,10 +178,66 @@ EventFlux is a compact, Rust-native **stream processing engine** that brings **p
 
 ## Visual Identity Cues (non-design guidance)
 
-* **Icon:** branching pipeline / signal graph (immediately reads “processing”).
+* **Icon:** branching pipeline / signal graph (immediately reads "processing").
 * **Avoid:** waves/cloth metaphors (weave/loom), generic clouds.
-* **Lockup:** “EventFlux | stream processing engine (CEP)” on first-view placements.
+* **Lockup:** "EventFlux | stream processing engine (CEP)" on first-view placements.
 * **Color:** modern, high-contrast palette; emphasize clarity/readability.
+
+---
+
+## Color Palette
+
+### Core Colors
+
+* **Primary Background:** `#F7F8F8` — Light neutral background for website and documentation
+* **Primary Blue (Dark):** `#2A3E5D` — Main headings, prominent text, navigation, interactive elements
+* **Dark Gray (Text):** `#424242` — Body text, ensuring readability against light backgrounds
+
+### Accent Colors
+
+* **Accent Teal/Cyan:** `#00BCD4` — Calls to action, highlights, key graphical elements, links
+* **Accent Purple:** `#673AB7` — Secondary actions, feature highlights, specific sections, depth
+
+### Supporting Colors
+
+* **Light Gray:** `#EEEEEE` — Backgrounds, borders, dividing lines, subtle separators
+
+### Usage Guidelines
+
+* **High contrast required:** Ensure all text meets WCAG AA standards (4.5:1 for body text, 3:1 for large text)
+* **Accent usage:** Use teal for primary CTAs and active states; use purple for secondary emphasis
+* **Backgrounds:** Prefer `#F7F8F8` for main backgrounds; `#EEEEEE` for content cards or sections
+* **Text hierarchy:** Dark blue (`#2A3E5D`) for headings, dark gray (`#424242`) for body copy
+
+---
+
+## Logo Usage
+
+### Logo Assets
+
+* **Primary logo:** `logo.png` (full color, transparent background)
+* **Minimum size:** 120px width for digital, 1 inch for print
+* **Clear space:** Maintain minimum padding equal to the height of the "E" in "EventFlux" on all sides
+
+### Usage Rules
+
+* **Do:**
+  - Use the logo on light backgrounds (`#F7F8F8`, `#FFFFFF`, `#EEEEEE`)
+  - Maintain original aspect ratio
+  - Ensure sufficient contrast with background
+  - Use high-resolution versions for large formats
+
+* **Don't:**
+  - Distort, rotate, or alter the logo proportions
+  - Add effects (shadows, glows, outlines)
+  - Place on busy backgrounds that reduce legibility
+  - Use low-resolution versions that appear pixelated
+  - Change colors or recreate the logo
+
+### Lockup Variations
+
+* **With tagline:** Pair logo with "Pattern-First Stream Processing Engine (CEP) in Rust" for first-view placements
+* **Standalone:** Use logo alone for navigation, favicons, and secondary placements where brand is established
 
 ---
 
@@ -207,4 +263,5 @@ EventFlux is a compact, Rust-native **stream processing engine** that brings **p
 
 ## Change Log
 
+* **v1.1** — Added color palette specifications and logo usage guidelines.
 * **v1.0** — Initial brand and messaging reference.
