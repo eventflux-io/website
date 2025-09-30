@@ -1,0 +1,175 @@
+---
+// EventFlux Landing Page
+import bannerImg from '../../assets/brand/banner-full.png';
+import logoImg from '../../assets/brand/logo.png';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href={logoImg.src} />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+
+		<!-- SEO Meta Tags -->
+		<title>EventFlux — Pattern-First Stream Processing Engine (CEP) in Rust</title>
+		<meta name="description" content="EventFlux is a pattern-first stream processing engine (CEP) in Rust. Compose filters, joins, enrichment, windows, and complex event patterns—and run them in milliseconds, without the overhead of a heavyweight streaming platform." />
+		<meta name="keywords" content="stream processing engine, complex event processing, CEP, real-time event processing, Rust stream processing, windows and watermarking, joins and enrichment, event correlation, pattern detection, on-prem stream processing, Kubernetes stream processing" />
+
+		<!-- Open Graph / Social Media -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.eventflux.io/" />
+		<meta property="og:title" content="EventFlux — Pattern-First Stream Processing Engine (CEP) in Rust" />
+		<meta property="og:description" content="From events to action. Fast. Pattern-first stream processing with sub-10 ms latency, without platform bloat." />
+		<meta property="og:image" content="https://www.eventflux.io/banner.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://www.eventflux.io/" />
+		<meta property="twitter:title" content="EventFlux — Pattern-First Stream Processing Engine (CEP) in Rust" />
+		<meta property="twitter:description" content="From events to action. Fast. Pattern-first stream processing with sub-10 ms latency, without platform bloat." />
+		<meta property="twitter:image" content="https://www.eventflux.io/banner.png" />
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<img src={bannerImg.src} alt="EventFlux — Stream Processor" class="banner" width={bannerImg.width} height={bannerImg.height} />
+				<h1>EventFlux</h1>
+				<p class="tagline">Pattern-First Stream Processing Engine (CEP) in Rust</p>
+				<p class="description">
+					Compose <strong>filters</strong>, <strong>joins</strong>, <strong>enrichment</strong>,
+					<strong>windows</strong>, and <strong>complex event patterns</strong>—and run them in
+					milliseconds, without the overhead of a heavyweight streaming platform.
+				</p>
+				<p class="coming-soon">Coming Soon</p>
+			</div>
+		</main>
+
+		<style>
+			:root {
+				--primary-bg: #f8f9fa;
+				--text-primary: #1a1a1a;
+				--text-secondary: #4a5568;
+				--accent-blue: #4299e1;
+				--accent-purple: #805ad5;
+				--accent-teal: #38b2ac;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			html, body {
+				height: 100%;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+				background: var(--primary-bg);
+				color: var(--text-primary);
+			}
+
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				line-height: 1.6;
+			}
+
+			main {
+				width: 100%;
+				padding: 2rem;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				text-align: center;
+			}
+
+			.banner {
+				width: 100%;
+				max-width: 800px;
+				height: auto;
+				margin: 0 auto 3rem;
+				display: block;
+			}
+
+			h1 {
+				font-size: 3.5rem;
+				font-weight: 700;
+				margin-bottom: 0.5rem;
+				color: var(--text-primary);
+			}
+
+			.tagline {
+				font-size: 1.25rem;
+				color: var(--text-secondary);
+				margin-bottom: 2rem;
+				font-weight: 500;
+			}
+
+			.description {
+				font-size: 1.125rem;
+				color: var(--text-secondary);
+				max-width: 800px;
+				margin: 0 auto 3rem;
+				line-height: 1.8;
+			}
+
+			.description strong {
+				color: var(--accent-purple);
+				font-weight: 600;
+			}
+
+			.coming-soon {
+				font-size: 2rem;
+				font-weight: 600;
+				color: var(--accent-teal);
+				margin-top: 3rem;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+			}
+
+			@media (max-width: 768px) {
+				h1 {
+					font-size: 2.5rem;
+				}
+
+				.tagline {
+					font-size: 1rem;
+				}
+
+				.description {
+					font-size: 1rem;
+				}
+
+				.coming-soon {
+					font-size: 1.5rem;
+				}
+
+				.banner {
+					margin-bottom: 2rem;
+				}
+			}
+
+			@media (max-width: 480px) {
+				h1 {
+					font-size: 2rem;
+				}
+
+				.tagline {
+					font-size: 0.9rem;
+				}
+
+				.description {
+					font-size: 0.9rem;
+				}
+
+				.coming-soon {
+					font-size: 1.25rem;
+				}
+			}
+		</style>
+	</body>
+</html>
