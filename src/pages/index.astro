@@ -46,7 +46,7 @@ import logoImg from '../../public/logo.png';
 
 		<style>
 			:root {
-				--primary-bg: #FFF;
+				--primary-bg: #fcfcfc;
 				--text-primary: #1a1a1a;
 				--text-secondary: #4a5568;
 				--accent-blue: #4299e1;
@@ -86,10 +86,11 @@ import logoImg from '../../public/logo.png';
 			}
 
 			.banner {
-				width: 100%;
-				max-width: 800px;
+				width: 100vw;
+				max-width: none;
 				height: auto;
-				margin: 0 auto 3rem;
+				margin: 0 0 1.5rem;
+				margin-left: calc(-50vw + 50%);
 				display: block;
 			}
 
@@ -111,7 +112,7 @@ import logoImg from '../../public/logo.png';
 				font-size: 1.125rem;
 				color: var(--text-secondary);
 				max-width: 800px;
-				margin: 0 auto 3rem;
+				margin: 0 auto 1rem;
 				line-height: 1.8;
 			}
 
@@ -122,10 +123,10 @@ import logoImg from '../../public/logo.png';
 
 			.coming-soon {
 				display: inline-block;
-				font-size: 2rem;
+				font-size: 1.125rem;
 				font-weight: 600;
 				color: var(--accent-teal);
-				margin-top: 3rem;
+				margin-top: 1rem;
 				text-transform: uppercase;
 				letter-spacing: 0.1em;
 				text-decoration: none;
@@ -150,7 +151,7 @@ import logoImg from '../../public/logo.png';
 				}
 
 				.coming-soon {
-					font-size: 1.5rem;
+					font-size: 1rem;
 				}
 
 				.banner {
@@ -172,7 +173,7 @@ import logoImg from '../../public/logo.png';
 				}
 
 				.coming-soon {
-					font-size: 1.25rem;
+					font-size: 0.9rem;
 				}
 			}
 		</style>
