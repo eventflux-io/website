@@ -139,3 +139,10 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 /.claude/
 /.idea/
+
+# macOS
+.DS_Store
+
+# Astro cache
+.astro/data-store.json
+.astro/settings.json
