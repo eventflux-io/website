@@ -1,8 +1,7 @@
 ---
 // EventFlux Landing Page
-import bannerImg from '../../assets/brand/banner-full.png';
-import logoImg from '../../assets/brand/logo.png';
-import bgImg from '../../public/bg.png';
+import bgImg from '../../public/banner.png';
+import logoImg from '../../public/logo.png';
 ---
 
 <!DOCTYPE html>
@@ -43,7 +42,7 @@ import bgImg from '../../public/bg.png';
 					<strong>windows</strong>, and <strong>complex event patterns</strong>—and run them in
 					milliseconds, without the overhead of a heavyweight streaming platform.
 				</p>
-				<p class="coming-soon">Coming Soon</p>
+				<a href="https://github.com/eventflux-io/engine/" class="coming-soon">Early Access</a>
 			</div>
 		</main>
 
@@ -124,12 +123,19 @@ import bgImg from '../../public/bg.png';
 			}
 
 			.coming-soon {
+				display: inline-block;
 				font-size: 2rem;
 				font-weight: 600;
 				color: var(--accent-teal);
 				margin-top: 3rem;
 				text-transform: uppercase;
 				letter-spacing: 0.1em;
+				text-decoration: none;
+				transition: opacity 0.2s ease;
+			}
+
+			.coming-soon:hover {
+				opacity: 0.8;
 			}
 
 			@media (max-width: 768px) {
